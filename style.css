@@ -1,0 +1,172 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: #f5f5f7;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* General Layout */
+header, section {
+    padding: 40px 20px;
+    max-width: 900px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero img {
+    width: 80%;
+    border-radius: 10px;
+    margin: 0 auto 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.highlights-banner ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color: #007aff;
+    font-size: 1.1rem;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cta-buttons button {
+    padding: 12px 24px;
+    background-color: #007aff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-buttons button:hover {
+    background-color: #005bb5;
+}
+
+/* Feature Section */
+#features h2, #compatibility h2, #update h2, #faq h2, #reviews h2 {
+    color: #007aff;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.feature-item {
+    padding: 20px;
+    margin: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: left;
+}
+
+.feature-item h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.interactive-demo img {
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Compatibility and Update Sections */
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    font-size: 1.1rem;
+    margin: 8px 0;
+    color: #333;
+}
+
+/* FAQ Section */
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-size: 1.3rem;
+    color: #007aff;
+    cursor: pointer;
+}
+
+.faq-item p {
+    margin-top: 8px;
+    color: #555;
+}
+
+/* Reviews Section */
+.review {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f5;
+    border-radius: 8px;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #007aff;
+    color: #fff;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+footer nav ul li a:hover {
+    color: #cce7ff;
+}
+
